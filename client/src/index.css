@@ -1,0 +1,54 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f4f6f9;
+  color: #111827;
+}
+
+/* Buttons */
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Inputs */
+input,
+textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #111827;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}

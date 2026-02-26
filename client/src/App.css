@@ -1,0 +1,50 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  background: #111827;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+
+.sidebar button {
+  background: #1f2937;
+  color: white;
+}
+
+.sidebar button:hover {
+  background: #374151;
+}
+
+.main {
+  flex: 1;
+  background: #f4f6f9;
+}
+
+.topbar {
+  background: white;
+  padding: 18px 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.content {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
