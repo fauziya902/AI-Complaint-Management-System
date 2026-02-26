@@ -1,29 +1,32 @@
-🚀 AI-Powered Complaint Management System
+AI-Powered Complaint Management System
 
-A full-stack MERN application that uses AI to automatically categorize complaints, detect priority levels, and enable real-time complaint tracking with a role-based admin dashboard.
+A full-stack MERN application that automates complaint management using AI for categorization, priority detection, and real-time status tracking.
 
-🔧 Tech Stack
+Overview
 
-Frontend: React (Vite), Axios
+The AI Complaint Management System is a smart grievance redressal platform that allows users to submit complaints with images.
+The system analyzes complaints using AI, assigns priority levels, and enables administrators to monitor and resolve issues efficiently.
 
-Backend: Node.js, Express.js
-
-Database: MongoDB (Mongoose)
-
-Authentication: JWT
-
-Other: Multer (Image Upload)
-
-✨ Features
+Key Features
 
 AI-based complaint categorization
 
-Automatic priority detection (High/Normal)
+Automatic priority detection (High / Normal)
 
-Secure JWT authentication
+JWT-based secure authentication
 
-Role-based access (User/Admin)
+Role-based access control (User / Admin)
 
 Image upload support
 
-Real-time complaint status tracking
+Real-time complaint tracking
+
+Admin dashboard for monitoring and updates
+
+Tech Stack
+
+Frontend: React (Vite), React Router, Axios
+Backend: Node.js, Express.js
+Database: MongoDB (Mongoose)
+Authentication: JWT
+File Upload: Multer
