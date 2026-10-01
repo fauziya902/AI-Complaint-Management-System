@@ -17,13 +17,15 @@ const authRoutes = require("./routes/authRoutes");
 app.use("/api/auth", authRoutes);
 // Example: GET /api/users
 app.get('/api/users', async (req, res) => {
-  const users = await User.find().select('-password'); // Password chhor kar sab bhejien
+  const users = await User.find().select('-password'); // Password
   res.json(users);
 });
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.listen(process.env.PORT || 5000, '0.0.0.0', () => {
+    console.log(`Server running on port ${process.env.PORT || 5000}`);
+});
 
 

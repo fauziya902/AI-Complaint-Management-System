@@ -134,7 +134,7 @@ function Complaint() {
               <option value="Electricity">Electricity</option>
               <option value="Technical Support">Technical Support</option>
               <option value="Other">Other</option>
-            </select>
+            </select> 
           </div>
 
           <div style={styles.inputGroup}>
